@@ -1,0 +1,6 @@
+
+
+class StaticDemo3{
+
+
+}
