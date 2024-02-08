@@ -1,0 +1,12 @@
+import java.util.*;
+
+class HashDemo {
+
+	public static void main(String[] args) {
+
+		HashMap obj = new HashMap();
+		obj.put("Saurabh",22);
+		obj.put("Vedika ",22);
+		System.out.println(obj);
+	}
+}
