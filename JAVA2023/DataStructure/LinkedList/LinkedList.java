@@ -28,7 +28,7 @@ class LinkedList {
 		Node newNode = createNode(data);
 		if(head==null) {
 			head = newNode;
-			newNode.next = null;
+			// newNode.next = null;
 		} else {
 			Node temp = head;
 			while(temp.next!=null) {
