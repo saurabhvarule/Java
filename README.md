@@ -9,39 +9,44 @@ Understand core Java concepts: data types, control structures, classes, and obje
 Explore advanced topics: inheritance, polymorphism, exception handling, and multithreading.
 Solve coding challenges to reinforce understanding.
 
+### Here is a simple example of a java program that prints "Hello, World!":
 
-Folder Structure
-basics/: Basic Java concepts and syntax.
-algorithms/: Implementations of common algorithms (sorting, searching, etc.).
-data-structures/: Examples of data structures (lists, stacks, queues, trees, etc.).
-Code Examples
-Hello, Java!
-Java
-
-public class HelloWorld {
+```java
+class Demo {
     public static void main(String[] args) {
-        System.out.println("Hello, Java!");
+        System.out.prinltn("Hello Java");
     }
 }
+```
 
-Linked List Implementation
-Java
+## Usage
 
-class Node {
-    int data;
-    Node next;
+### To compile the program, use:
 
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
+```bash
+javac Demo.java
+```
+
+### To run the program, use:
+```bash
+java Demo
+```
 
 
-Resources
+
+
+### Folder Structure
+#### Java Concepts/: 
+This folder contains all the basic concepts of Java one can learn during his coding journey.
+
+#### Java 2023/: 
+Problem Solving codes and data structure.
+ 
+### Resources
 Oracle’s Java Documentation
 GeeksforGeeks Java Tutorials
-Contributions
+
+### Contributions
 Feel free to contribute! If you spot any errors, have suggestions, or want to add more examples, create a pull request. Let’s learn together! 😊
 
 Remember, this README is your canvas—paint it with your experiences, enthusiasm, and love for Java! Happy coding! 🎉👩‍💻👨‍💻
